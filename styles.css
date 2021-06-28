@@ -1,78 +1,195 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Varun GR</title>
-  <style type="text/css">
-    .backimg{
-      background: url(s4.jpg);
-      background-position: center;
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.62rem;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  color: #66BFBF;
+}
 
-    }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 3.0rem;
+}
 
-  </style>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  position: relative;
+  right: 130px;
+  text-decoration: underline;
+}
 
-<body>
-  <div class=" top-container">
-    <img class="top-cloud" src="cloud.png" alt="cloud-img">
-    <h1>I'm Varun GR.</h1>
-    <p class="para">a web designer </p>
-    <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
-    <img src="mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="backimg">
-    <div class="profile">
-      <img class="circle1" src="circle1.png" alt="circle1-imng">
-      <h2>Hello</h2>
-      <p class="start">My name is Varun GR. This Webpage is made by HTML and CSS. This is just a test website.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>Gaming</h2>
-      <div class="skill-row">
-        <img class="circle2" src="https://media.giphy.com/media/mC1IBTLDuOWY5hIxPw/giphy.gif" alt="circle2-img">
-        <h3>PC GAMER</h3>
-        <p class=para2>I play games on my PC. Sometimes I play using Nvidia GeForce Now Stream Gaming. I love playing games with my friends and i have alot of fun. I like RPG Games and FPS Games. Playing Co-Op with friends is more fun.</p>
-      </div>
-      <div class="skill-row2">
-        <img class="circle3" src="https://media.giphy.com/media/6qFTJz4fDRkdy/giphy.gif" alt="circle3-img">
-        <h3 class="MMORPG">MMORPG | RPG | FPS| STRATEGY | MULTIPLAYER </h3>
-        <p class="para3">My favourite RPG game is "The Witcher 3". The best FPS Game right now is the "Call Of Duty Cold War". The top racing Game right now is the "Forza Horizon 4"</p>
-      </div>
-    </div>
-    <hr class="hr2">
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3 class="love">If you love gaming as much as i do.</h3>
-      <p class="contact-message">Love gaming as much as I do? Let's talk about how awesome they are! We can have alot of fun and we can play together!.</p>
-      <a class="btn" href="mailto:varungrmidoriya@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+hr {
+  border: dotted #B8DFD8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.start{
+font-size: 1.2rem;
+}
+
+.hr2{
+  position: relative;
+    bottom: 270px;
+}
+
+.contact-me {
+  position: relative;
+  bottom: 250px;
+}
+
+.contact-message{
+  position: relative;
+      top: 40px;
+      font-size: 1.2rem;
+}
+
+.btn {
+  position: relative;
+  top: 165px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.MMORPG {
+  position: relative;
+  bottom: 400px;
+  left: 160px;
+}
+
+.love {
+  left: 0px;
+}
+
+.para {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+.para2 {
+  position: relative;
+  right: 130px;
+  font-size: 1.2rem;
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.facebook.com/varungrjonny.gr/">Facebook</a>
-    <a class="footer-link" href="https://steamcommunity.com/id/varungrvv/">Steam</a>
-    <a class="footer-link" href="https://www.reddit.com/user/Old_Record3321">Reddit</a>
-    <p class="copyright">© 2021-2022 Varun GR.</p>
-  </div>
+}
 
-</body>
+.para3 {
+  position: relative;
+  bottom: 480px;
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  left: 215px;
+  font-size: 1.2rem;
+}
 
-</html>
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+}
+
+.circle3 {
+  height: 400px;
+  width: 45%;
+  position: relative;
+  left: 700px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+
+
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+    right: 390px;
+    top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 390px;
+  bottom: 300px;
+}
+
+.circle1 {
+  height: 300px;
+}
+
+.circle2 {
+  position: relative;
+  height: 400px;
+  right: 110px;
+  bottom: 70px;
+  float: left;
+}
